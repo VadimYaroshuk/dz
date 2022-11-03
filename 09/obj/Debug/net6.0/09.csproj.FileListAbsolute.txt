@@ -1,0 +1,15 @@
+C:\Users\Mr.Texnika\Desktop\DZ\09\obj\Debug\net6.0\09.csproj.AssemblyReference.cache
+C:\Users\Mr.Texnika\Desktop\DZ\09\obj\Debug\net6.0\09.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mr.Texnika\Desktop\DZ\09\obj\Debug\net6.0\09.AssemblyInfoInputs.cache
+C:\Users\Mr.Texnika\Desktop\DZ\09\obj\Debug\net6.0\09.AssemblyInfo.cs
+C:\Users\Mr.Texnika\Desktop\DZ\09\obj\Debug\net6.0\09.csproj.CoreCompileInputs.cache
+C:\Users\Mr.Texnika\Desktop\DZ\09\bin\Debug\net6.0\09.exe
+C:\Users\Mr.Texnika\Desktop\DZ\09\bin\Debug\net6.0\09.deps.json
+C:\Users\Mr.Texnika\Desktop\DZ\09\bin\Debug\net6.0\09.runtimeconfig.json
+C:\Users\Mr.Texnika\Desktop\DZ\09\bin\Debug\net6.0\09.dll
+C:\Users\Mr.Texnika\Desktop\DZ\09\bin\Debug\net6.0\09.pdb
+C:\Users\Mr.Texnika\Desktop\DZ\09\obj\Debug\net6.0\09.dll
+C:\Users\Mr.Texnika\Desktop\DZ\09\obj\Debug\net6.0\refint\09.dll
+C:\Users\Mr.Texnika\Desktop\DZ\09\obj\Debug\net6.0\09.pdb
+C:\Users\Mr.Texnika\Desktop\DZ\09\obj\Debug\net6.0\09.genruntimeconfig.cache
+C:\Users\Mr.Texnika\Desktop\DZ\09\obj\Debug\net6.0\ref\09.dll
