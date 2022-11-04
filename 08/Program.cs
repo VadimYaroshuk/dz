@@ -6,7 +6,7 @@
 Console.Write("Введите пятизгачное число: ");
 string str = Console.ReadLine();
 
-if (str[0] == str[4] || str[1] == str[3])
+if (str[0] == str[4] &&  str[1] == str[3])
 {
     Console.WriteLine("Это число является полиндромом");
 }
