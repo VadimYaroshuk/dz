@@ -12,10 +12,10 @@ string str = Console.ReadLine();
 int x = str.Length;
 int sum = 0;
 
-for (int i = 0; i < x - 1; i++)
+for (int i = 0; i < x ; i++)
 
 { 
-   int y = Convert.ToInt32(str[i]);
+   int y = Convert.ToInt32(str[i].ToString());
     sum = sum + y; }
 
 Console.Write(sum);
