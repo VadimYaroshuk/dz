@@ -16,11 +16,16 @@ for (int i = 0; i < n; i++)
     array123[i] = random.Next(-99, 99);
     Console.Write($" {array123[i]}");
 
+    if (i % 2 != 0)
+    {
+        sum = sum + array123[i];
+    }
+
 }
-for (int j = 1; j < n; j = j + 2)
-{
-    sum = sum + array123[j];
-}
+// for (int j = 1; j < n; j = j + 2)
+// {
+//     sum = sum + array123[j];
+// }
 
 Console.WriteLine("");
 Console.Write("Сумма элементов массива, стоящих на нечетных позициях: ");
