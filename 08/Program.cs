@@ -3,16 +3,19 @@
 // 12821 -> да
 // 23432 -> да
 
-Console.Write("Введите пятизгачное число: ");
-string str = Console.ReadLine();
 
-if (str[0] == str[4] &&  str[1] == str[3])
+void Polindrom()
 {
-    Console.WriteLine("Это число является полиндромом");
-}
-else
-{  
+    Console.Write("Введите пятизначное число: ");
+    string digit = Console.ReadLine();
 
-    Console.WriteLine("Это число не является полиндромом");
-
+    if (digit[0] == digit[4] && digit[1] == digit[3])
+    {
+        Console.WriteLine(digit + "- это число является полиндромом");
+    }
+    else
+    {
+        Console.WriteLine(digit + " - это число не является полиндромом");
+    }
 }
+Polindrom();
