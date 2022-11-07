@@ -8,20 +8,20 @@
 
 // 8 7,8 -7,1 9
 
-void Fill2Array(int[,] matrix)
+void Fill2Array(double[,] matrix)
 {
-    Random random = new Random();
+    Random rand = new Random(DateTime.Now.Millisecond);
+    
     for (int i = 0; i < matrix.GetLength(0); i++)
     {
         for (int j = 0; j < matrix.GetLength(1); j++)
         {
-            matrix[i, j] = random.Next(-100, 100);
-
+            matrix[i, j] = rand.NextDouble()*10;
         }
     }
 }
 
-void Print2Arrya(int[,] matrix2)
+void Print2Arrya(double[,] matrix2)
 {
     for (int i = 0; i < matrix2.GetLength(0); i++)
     {
@@ -36,6 +36,6 @@ void Print2Arrya(int[,] matrix2)
 Console.WriteLine("Введите размерность массива:");
 int m = Convert.ToInt32(Console.ReadLine());
 int n = Convert.ToInt32(Console.ReadLine());
-int[,] array = new int[m, n];
+double[,] array = new double[m, n];
 Fill2Array(array);
 Print2Arrya(array);
